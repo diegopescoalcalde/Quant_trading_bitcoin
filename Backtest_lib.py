@@ -184,12 +184,6 @@ class MA_Backtester():
             tuples of the form (start, end, step size).
         '''
         
-        #self.metric = metric
-        
-        #if metric == "Multiple":
-        #    performance_function = self.calculate_multiple
-        #elif metric == "Sharpe":
-        #    performance_function = self.calculate_sharpe
         
         SMA_S_range = range(*SMA_S_range)
         SMA_M_range = range(*SMA_M_range)
