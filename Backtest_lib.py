@@ -37,14 +37,8 @@ class MA_Backtester():
     plot_results:
         plots the cumulative performance of the trading strategy compared to buy-and-hold.
         
-    optimize_strategy:
-        backtests strategy for different parameter values incl. optimization and reporting (wrapper).
-    
-    find_best_strategy:
-        finds the optimal strategy (global maximum).
-         
-    print_performance:
-        calculates and prints various performance metrics.
+    parametric_analysis:
+        backtests strategy for different parameter values.
         
     '''    
     
